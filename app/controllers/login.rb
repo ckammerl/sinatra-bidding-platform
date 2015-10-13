@@ -1,6 +1,5 @@
 get "/register" do
   @user = User.new
-  erb :register
 end
 
 post "/users" do
